@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="Drawer">
+		<property name="context-root" value="Drawer"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src"/>
+		<wb-resource deploy-path="/" source-path="WebContent"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Ian/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.0.RELEASE/7efad8565e5e609d1ff301043b8ea31080796391/spring-webmvc-5.0.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Ian/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.0.RELEASE/717d06b89e32f51f329094f709662f8414c0843f/spring-aop-5.0.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Ian/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.0.RELEASE/6f95f071cfe29a84661648e5445dcb054be0cfa7/spring-beans-5.0.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Ian/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.0.RELEASE/bf5165fcd47f582f9addcd2a41424b08ea00d880/spring-context-5.0.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Ian/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.0.RELEASE/3a9bb910e8943b5ef59b193a1621daba46456ca9/spring-core-5.0.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Ian/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.0.0.RELEASE/48cdf1b2ea2a510c731e5e08f75299e3cb8e9d68/spring-expression-5.0.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Ian/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.0.RELEASE/f5c2d9d5668534c308a1ca4eda070cd01320af65/spring-web-5.0.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Ian/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.0.RELEASE/ab0a2114cab7b9e04adf79d812c714f3cbf4abf7/spring-jcl-5.0.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>

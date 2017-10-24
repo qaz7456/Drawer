@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+ 	    http://www.springframework.org/schema/beans
+ 	    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="q2w" class="tw.com.drawer.q2w.bean.Config">
+		<property name="heartBeatClient">
+			<bean class="tw.com.drawer.q2w.bean.HeartBeatClient" />
+		</property>
+		<property name="connectionFactory">
+			<bean class="tw.com.drawer.q2w.bean.ConnectionFactory" />
+		</property>
+		<property name="queueDestination">
+			<bean class="tw.com.drawer.q2w.bean.QueueDestination" />
+		</property>
+		<property name="queueOrigin">
+			<bean class="tw.com.drawer.q2w.bean.QueueOrigin" />
+		</property>
+		<property name="webService">
+			<bean class="tw.com.drawer.q2w.bean.WebService" />
+		</property>
+	</bean>
+	
+</beans>
