@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE>
 <html>
 <head>
@@ -76,7 +77,9 @@
 												<form>
 													<div class="input-group">
 														<span class="input-group-addon"><i
-															class="glyphicon glyphicon-list-alt"></i></span> <input
+															class="glyphicon glyphicon-list-alt"></i></span>
+				<form:input path="name" type="text" class="form-control"
+                                id="beatID" placeholder="編號" /> <input
 															id="beatID" type="text" class="form-control"
 															name="beatID" placeholder="編號">
 													</div>
@@ -111,15 +114,15 @@
 													</div>
 													<div class="input-group">
 														<span class="input-group-addon"><i
-															class="glyphicon glyphicon-cloud"></i></span> <input
-															id="host" type="text" class="form-control"
-															name="host" placeholder="主機">
+															class="glyphicon glyphicon-cloud"></i></span> <input id="host"
+															type="text" class="form-control" name="host"
+															placeholder="主機">
 													</div>
 													<div class="input-group">
 														<span class="input-group-addon"><i
-															class="glyphicon glyphicon-link"></i></span> <input
-															id="port" type="text" class="form-control"
-															name="port" placeholder="埠號">
+															class="glyphicon glyphicon-link"></i></span> <input id="port"
+															type="text" class="form-control" name="port"
+															placeholder="埠號">
 													</div>
 												</form>
 											</div>
@@ -174,15 +177,15 @@
 												<form>
 													<div class="input-group">
 														<span class="input-group-addon"><i
-															class="glyphicon glyphicon-cloud"></i></span> <input
-															id="url" type="text" class="form-control"
-															name="url" placeholder="網址">
+															class="glyphicon glyphicon-cloud"></i></span> <input id="url"
+															type="text" class="form-control" name="url"
+															placeholder="網址">
 													</div>
 													<div class="input-group">
 														<span class="input-group-addon"><i
-															class="glyphicon glyphicon-picture"></i></span> <input
-															id="type" type="text" class="form-control"
-															name="type" placeholder="類型">
+															class="glyphicon glyphicon-picture"></i></span> <input id="type"
+															type="text" class="form-control" name="type"
+															placeholder="類型">
 													</div>
 													<div class="input-group">
 														<span class="input-group-addon"><i
@@ -215,6 +218,7 @@
 						</div>
 					</form>
 				</div>
+				<button type="button" class="btn btn-primary">確認送出</button>
 			</div>
 		</div>
 	</div>
